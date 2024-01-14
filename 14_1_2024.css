@@ -1,0 +1,83 @@
+<div class="container">
+  <div class="left">
+      <div class="a"></div>
+      <div class="b"></div>
+      <div class="c"></div>
+  </div>
+  <div class="center"></div>
+  <div class="right"></div>
+</div>
+  <!-- my absolute dog shite attempt -->
+    <style>
+    * {
+      background: #7C402E;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: auto;
+      width: 100vw;
+      height: 100vh; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+      
+    .container{
+      display: flex;
+      width: 75vw;
+      height: 50vh;
+      background: white;
+    }
+
+    .left{
+      width: 35%;
+      height: 100%;
+      background: red;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .left .a{
+      width: 50px;
+      height: 50px;
+      background: white;
+      border-radius: 30px
+    }
+    .left .c{
+      margin-top: 50px;
+      width: 100px;
+      height: 50px;
+      background: white;
+ 
+    }
+    .left .b{
+      width: 55px;
+      height: 100px;
+      background: white;
+      border-radius: 0 50px 50px 0
+    }
+  
+    .center{
+      width: 40%;
+      height: 100%;
+      background: blue;
+    }
+
+    .right{
+      width: 25%;
+      height: 100%;
+      background: green;
+    }
+
+
+  </style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
